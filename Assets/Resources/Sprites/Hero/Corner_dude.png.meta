@@ -1,0 +1,1199 @@
+fileFormatVersion: 2
+guid: 01dcee19310dfde418073c12a60a0a3f
+timeCreated: 1450817704
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Corner_dude_0
+    21300002: Corner_dude_1
+    21300004: Corner_dude_2
+    21300006: Corner_dude_3
+    21300008: Corner_dude_4
+    21300010: Corner_dude_5
+    21300012: Corner_dude_6
+    21300014: Corner_dude_7
+    21300016: Corner_dude_8
+    21300018: Corner_dude_9
+    21300020: Corner_dude_10
+    21300022: Corner_dude_11
+    21300024: Corner_dude_12
+    21300026: Corner_dude_13
+    21300028: Corner_dude_14
+    21300030: Corner_dude_15
+    21300032: Corner_dude_16
+    21300034: Corner_dude_17
+    21300036: Corner_dude_18
+    21300038: Corner_dude_19
+    21300040: Corner_dude_20
+    21300042: Corner_dude_21
+    21300044: Corner_dude_22
+    21300046: Corner_dude_23
+    21300048: Corner_dude_24
+    21300050: Corner_dude_25
+    21300052: Corner_dude_26
+    21300054: Corner_dude_27
+    21300056: Corner_dude_28
+    21300058: Corner_dude_29
+    21300060: Corner_dude_30
+    21300062: Corner_dude_31
+    21300064: Corner_dude_32
+    21300066: Corner_dude_33
+    21300068: Corner_dude_34
+    21300070: Corner_dude_35
+    21300072: Corner_dude_36
+    21300074: Corner_dude_37
+    21300076: Corner_dude_38
+    21300078: Corner_dude_39
+    21300080: Corner_dude_40
+    21300082: Corner_dude_41
+    21300084: Corner_dude_42
+    21300086: Corner_dude_43
+    21300088: Corner_dude_44
+    21300090: Corner_dude_45
+    21300092: Corner_dude_46
+    21300094: Corner_dude_47
+    21300096: Corner_dude_48
+    21300098: Corner_dude_49
+    21300100: Corner_dude_50
+    21300102: Corner_dude_51
+    21300104: Corner_dude_52
+    21300106: Corner_dude_53
+    21300108: Corner_dude_54
+    21300110: Corner_dude_55
+    21300112: Corner_dude_56
+    21300114: Corner_dude_57
+    21300116: Corner_dude_58
+    21300118: Corner_dude_59
+    21300120: Corner_dude_60
+    21300122: Corner_dude_61
+    21300124: Corner_dude_62
+    21300126: Corner_dude_63
+    21300128: Corner_dude_64
+    21300130: Corner_dude_65
+    21300132: Corner_dude_66
+    21300134: Corner_dude_67
+    21300136: Corner_dude_68
+    21300138: Corner_dude_69
+    21300140: Corner_dude_70
+    21300142: Corner_dude_71
+    21300144: Corner_dude_72
+    21300146: Corner_dude_73
+    21300148: Corner_dude_74
+    21300150: Corner_dude_75
+    21300152: Corner_dude_76
+    21300154: Corner_dude_77
+    21300156: Corner_dude_78
+    21300158: Corner_dude_79
+    21300160: Corner_dude_80
+    21300162: Corner_dude_81
+    21300164: Corner_dude_82
+    21300166: Corner_dude_83
+    21300168: Corner_dude_84
+    21300170: Corner_dude_85
+    21300172: Corner_dude_86
+    21300174: Corner_dude_87
+    21300176: Corner_dude_88
+    21300178: Corner_dude_89
+    21300180: Corner_dude_90
+    21300182: Corner_dude_91
+    21300184: Corner_dude_92
+    21300186: Corner_dude_93
+    21300188: Corner_dude_94
+    21300190: Corner_dude_95
+    21300192: Corner_dude_96
+    21300194: Corner_dude_97
+    21300196: Corner_dude_98
+    21300198: Corner_dude_99
+    21300200: Corner_dude_100
+    21300202: Corner_dude_101
+    21300204: Corner_dude_102
+    21300206: Corner_dude_103
+    21300208: Corner_dude_104
+    21300210: Corner_dude_105
+    21300212: Corner_dude_106
+    21300214: Corner_dude_107
+    21300216: Corner_dude_108
+    21300218: Corner_dude_109
+    21300220: Corner_dude_110
+    21300222: Corner_dude_111
+    21300224: Corner_dude_112
+    21300226: Corner_dude_113
+    21300228: Corner_dude_114
+    21300230: Corner_dude_115
+    21300232: Corner_dude_116
+    21300234: Corner_dude_117
+    21300236: Corner_dude_118
+    21300238: Corner_dude_119
+    21300240: Corner_dude_120
+    21300242: Corner_dude_121
+    21300244: Corner_dude_122
+    21300246: Corner_dude_123
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Corner_dude_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 770
+        width: 408
+        height: 248
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_1
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 781
+        width: 234
+        height: 237
+      alignment: 9
+      pivot: {x: .471228957, y: .137813255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_2
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 826
+        width: 226
+        height: 191
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_3
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 913
+        width: 105
+        height: 106
+      alignment: 9
+      pivot: {x: .546977282, y: .512504697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_7
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 821
+        width: 111
+        height: 88
+      alignment: 9
+      pivot: {x: .571186244, y: .568829775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 582
+        width: 159
+        height: 176
+      alignment: 9
+      pivot: {x: .521170855, y: .299175262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 578
+        width: 124
+        height: 180
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_13
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 538
+        width: 92
+        height: 220
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_14
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 594
+        width: 159
+        height: 176
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_15
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 683
+        width: 64
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_16
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 604
+        width: 200
+        height: 206
+      alignment: 9
+      pivot: {x: .5, y: .115991093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_17
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 622
+        width: 126
+        height: 192
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_18
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 611
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_19
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 610
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_20
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 423
+        width: 118
+        height: 186
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_21
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 602
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_22
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 418
+        width: 124
+        height: 176
+      alignment: 9
+      pivot: {x: .29639852, y: .270485967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_23
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 475
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_24
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 588
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_25
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 503
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_26
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 488
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_27
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 574
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_28
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 574
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_29
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 374
+        width: 64
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_30
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 475
+        width: 107
+        height: 91
+      alignment: 9
+      pivot: {x: .571947336, y: .638981104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_32
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 473
+        width: 110
+        height: 93
+      alignment: 9
+      pivot: {x: .549989164, y: .638948858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_34
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 556
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_35
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 548
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_38
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 466
+        width: 79
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_39
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 524
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_40
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 518
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_42
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 495
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_43
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 455
+        width: 11
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_45
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 466
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_46
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 380
+        width: 109
+        height: 86
+      alignment: 9
+      pivot: {x: .555174649, y: .625875056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_49
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 381
+        width: 109
+        height: 88
+      alignment: 9
+      pivot: {x: .544139624, y: .591121674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_52
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 378
+        width: 109
+        height: 77
+      alignment: 9
+      pivot: {x: .533104837, y: .656208754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_54
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 379
+        width: 107
+        height: 75
+      alignment: 9
+      pivot: {x: .537470758, y: .708486736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_56
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 430
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_57
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 416
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_58
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 399
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_59
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 417
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_60
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 422
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_65
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 322
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_66
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 326
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_67
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 387
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_68
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 326
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_69
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 322
+        width: 71
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_70
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 294
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_71
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 290
+        width: 59
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_72
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 286
+        width: 56
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_73
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 311
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_74
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 322
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_75
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 294
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_76
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 358
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_77
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 367
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_78
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 303
+        width: 58
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_79
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 315
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_80
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 313
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_81
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 339
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_82
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 307
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_83
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 314
+        width: 19
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_84
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 310
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_85
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 258
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_86
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 266
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_87
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 274
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_88
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 266
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_89
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 262
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_90
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 269
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_91
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 262
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_92
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 301
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_93
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 269
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_94
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 271
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_95
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 270
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_96
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 275
+        width: 50
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_97
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 246
+        width: 18
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_98
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 250
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_99
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 249
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_100
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 285
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_101
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 247
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_102
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_103
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 250
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_104
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 259
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_105
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 277
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_106
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 230
+        width: 15
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_107
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 231
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_108
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 242
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_109
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 251
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_110
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 210
+        width: 13
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_111
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 245
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_112
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 230
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_113
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 237
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_114
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 210
+        width: 10
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_115
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 210
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_116
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 234
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_117
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 239
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_118
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 214
+        width: 13
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_119
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 222
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_120
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 230
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_121
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 233
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_122
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 230
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Corner_dude_123
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 233
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

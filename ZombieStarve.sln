@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZombieStarve.CSharp", "ZombieStarve.CSharp.csproj", "{DC2FF3D2-81AF-2658-38CB-7C966CC37679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZombieStarve.CSharp.Editor", "ZombieStarve.CSharp.Editor.csproj", "{2B37E798-89AC-D816-C972-07926CAF2060}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC2FF3D2-81AF-2658-38CB-7C966CC37679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2FF3D2-81AF-2658-38CB-7C966CC37679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2FF3D2-81AF-2658-38CB-7C966CC37679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2FF3D2-81AF-2658-38CB-7C966CC37679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B37E798-89AC-D816-C972-07926CAF2060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B37E798-89AC-D816-C972-07926CAF2060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B37E798-89AC-D816-C972-07926CAF2060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B37E798-89AC-D816-C972-07926CAF2060}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
