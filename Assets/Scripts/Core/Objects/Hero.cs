@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using System.Linq;
 
 [RequireComponent(typeof(CanCollect))]
 public class Hero : MonoBehaviour {
@@ -29,9 +30,10 @@ public class Hero : MonoBehaviour {
     public void Action() {
         Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, 4f);
         int i = 0;
-        while (i < hitColliders.Length) {
-            if (hitColliders[i].GetComponent<SimpleObject>() != null)
-                if (Action(hitColliders[i].GetComponent<SimpleObject>()))
+        Collider2D[] sortedColliders = hitColliders.OrderBy(x => Vector3.Distance(transform.position, x.transform.position)).ToArray();
+        while (i < sortedColliders.Length) {
+            if (sortedColliders[i].GetComponent<SimpleObject>() != null)
+                if (Action(sortedColliders[i].GetComponent<SimpleObject>()))
                     return;
             i++;
         }

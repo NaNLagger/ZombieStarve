@@ -5,7 +5,10 @@ using System.Collections.Generic;
 public class CanStore : MonoBehaviour {
 
     public int Count = 1;
-    private Dictionary<Item, int> storedItems = new Dictionary<Item, int>();
+    public Dictionary<Item, int> storedItems = new Dictionary<Item, int>();
+
+    public delegate void StoreEvent(Item item);
+    public StoreEvent OnChangeItem;
 
     private void Awake() {
         GetComponent<SimpleObject>().OnDeath += Drop;
@@ -21,6 +24,8 @@ public class CanStore : MonoBehaviour {
                 return true;
             }
         }
+        if (OnChangeItem != null)
+            OnChangeItem(item);
         return false;
     }
 

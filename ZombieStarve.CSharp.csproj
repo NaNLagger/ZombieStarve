@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>5.3.1f1</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -92,6 +94,7 @@
     <Compile Include="Assets\Scripts\Core\Objects\Items\Item.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\Items\ItemContainer.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\Items\ItemEntities.cs" />
+    <Compile Include="Assets\Scripts\Core\Objects\Items\ItemStack.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\ObjectController.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\SimpleObject.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\TestDog.cs" />
@@ -102,7 +105,10 @@
     <Compile Include="Assets\Scripts\Core\Utils\Input\TouchDetection.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\Math\Position.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\ResourcesLoader.cs" />
+    <Compile Include="Assets\Scripts\Core\Utils\UI\DragItem.cs" />
+    <Compile Include="Assets\Scripts\Core\Utils\UI\Slot.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\UI\UIButton.cs" />
+    <Compile Include="Assets\Scripts\Core\Utils\UI\UIStore.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\Utils.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\View\ChildOrderUpdate.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\View\UpdateOrder.cs" />

@@ -14,7 +14,7 @@ public class Item {
         }
     }
 
-    private Sprite Icon {
+    public Sprite Icon {
         get {
             Sprite sprite = ResourcesLoader.LoadSprite("Icon/" + icon);
             if(sprite == null) {
