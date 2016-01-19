@@ -9,6 +9,7 @@ public class CanDrop : MonoBehaviour {
         foreach (Item item in dropItems) {
             Drop(item);
         }
+        dropItems.Clear();
     }
 
     public void Drop(Item item) {

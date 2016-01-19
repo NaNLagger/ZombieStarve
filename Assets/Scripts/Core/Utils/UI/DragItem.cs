@@ -8,40 +8,46 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public Text Count;
 
-    private Vector3 startPostion;
     private Transform startParent;
-
-    private Transform customParent;
+    private Canvas customParent;
     private Slot slot;
+    public ItemStack currentItemStack;
+
+    private void Awake() {
+        customParent = GameObject.FindGameObjectWithTag("UICanvas").GetComponent<Canvas>();
+    }
     
-    public void InitItem(Item item, int count) {
-        GetComponent<Image>().sprite = item.Icon;
-        Count.text = count.ToString();
+    public void InitItem(ItemStack itemStack) {
+        GetComponent<Image>().sprite = itemStack.TypeItem.Icon;
+        Count.text = itemStack.Count.ToString();
+        currentItemStack = itemStack;
+        itemStack.OnChangeCount += ChangeCount;
+        itemStack.OnNullCount += Delete;
     }
 
     public void SetSlot(Slot currentSlot) {
-        if (currentSlot.block) {
-            transform.parent = startParent;
+        if (!currentSlot.BlockSlot(this)) {
+            transform.SetParent(startParent.transform, false);
             transform.localPosition = new Vector3(0, 0, 0);
             return;
         }
-        if (slot != null)
-            slot.block = false;
+        if(slot != null)
+            slot.FreeSlot();
         slot = currentSlot;
-        transform.parent = currentSlot.transform;
+        transform.SetParent(currentSlot.transform, false);
         transform.localPosition = Vector2.zero;
-        currentSlot.block = true;
     }
 
-    private void Awake() {
-        customParent = transform.parent.parent.parent;
+    public void Delete() {
+        if (slot != null)
+            slot.FreeSlot();
+        Destroy(gameObject);
     }
 
     public void OnBeginDrag(PointerEventData eventData) {
-        startPostion = transform.position;
         startParent = transform.parent;
         GetComponent<CanvasGroup>().blocksRaycasts = false;
-        transform.parent = customParent;
+        transform.SetParent(customParent.transform, false);
     }
 
     public void OnDrag(PointerEventData eventData) {        
@@ -59,10 +65,14 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
                 }
             }
         }
-        if (transform.parent == customParent) {
-            transform.parent = startParent;
+        if (transform.parent == customParent.transform) {
+            transform.SetParent(startParent.transform, false);
         }
         transform.localPosition = new Vector3(0, 0, 0);
+    }
+
+    public void ChangeCount() {
+        Count.text = currentItemStack.Count.ToString();
     }
 }
 

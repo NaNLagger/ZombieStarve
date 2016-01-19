@@ -16,11 +16,11 @@ public class Item {
 
     public Sprite Icon {
         get {
-            Sprite sprite = ResourcesLoader.LoadSprite("Icon/" + icon);
-            if(sprite == null) {
+            Sprite ic = ResourcesLoader.LoadSprite("Icon/" + icon);
+            if(ic == null) {
                 return ResourcesLoader.LoadSprite("Icon/no_icon");
             } else {
-                return sprite;
+                return ic;
             }
         }
     }

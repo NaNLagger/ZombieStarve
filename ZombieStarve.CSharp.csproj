@@ -105,6 +105,7 @@
     <Compile Include="Assets\Scripts\Core\Utils\Input\TouchDetection.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\Math\Position.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\ResourcesLoader.cs" />
+    <Compile Include="Assets\Scripts\Core\Utils\UI\ActionArea.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\UI\DragItem.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\UI\Slot.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\UI\UIButton.cs" />

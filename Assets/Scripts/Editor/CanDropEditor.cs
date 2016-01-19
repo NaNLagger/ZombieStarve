@@ -7,11 +7,9 @@ using System.Collections;
 public class CanDropEditor : Editor {
 
     private Item editItem;
-    private int size;
 
     private void Awake() {
         ItemEntities.Init();
-        size = ((CanDrop)target).dropItems.Count;
     }
 
     public override void OnInspectorGUI() {

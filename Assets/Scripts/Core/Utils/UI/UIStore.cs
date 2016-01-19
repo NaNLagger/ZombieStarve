@@ -1,35 +1,40 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using System.Linq;
 
 [RequireComponent(typeof(GridLayoutGroup))]
 public class UIStore : MonoBehaviour {
 
     public CanStore storeComponent;
-
-    private GridLayoutGroup layout;
+    
     private Slot[] slots;
 
     private void Awake() {
         slots = transform.GetComponentsInChildren<Slot>();
+        foreach (Slot slot in slots)
+            slot.SetParent(this);
         GenerateIcons();
-        storeComponent.OnChangeItem += ChangeItem;
+        storeComponent.OnInsertStack += InsertDragItem;
     }
 
     private void GenerateIcons() {
-        int i = 0;
-        foreach(KeyValuePair<Item, int> pair in storeComponent.storedItems) {
-            DragItem dragItem = Instantiate(ResourcesLoader.LoadPref("ItemIcon")).GetComponent<DragItem>();
-            dragItem.InitItem(pair.Key, pair.Value);
-            if (i >= slots.Length)
-                return;
-            dragItem.SetSlot(slots[i]);
-            i++;
+        foreach(ItemStack stack in storeComponent.storedItems) {
+            AddStack(stack);
         }
     }
 
-    public void ChangeItem(Item item) {
+    private void AddStack(ItemStack stack) {
+        Slot freeSlot = slots.FirstOrDefault(x => !x.isBlock);
+        DragItem dragItem = Instantiate(ResourcesLoader.LoadPref("ItemIcon")).GetComponent<DragItem>();
+        dragItem.InitItem(stack);
+        dragItem.SetSlot(freeSlot);
+    }
 
+    public void InsertDragItem(ItemStack stack) {
+        if(slots.FirstOrDefault(x => x.BlockedStack == stack) == null) {
+            AddStack(stack);
+        }
     }
 
 }
