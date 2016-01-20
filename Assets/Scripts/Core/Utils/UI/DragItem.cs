@@ -25,14 +25,15 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         itemStack.OnNullCount += Delete;
     }
 
-    public void SetSlot(Slot currentSlot) {
+    public void SetSlot(Slot currentSlot) { 
+        if (!currentSlot.isBlock) {
+            if (slot != null)
+                slot.FreeSlot();
+        }
         if (!currentSlot.BlockSlot(this)) {
-            transform.SetParent(startParent.transform, false);
-            transform.localPosition = new Vector3(0, 0, 0);
+            BackToSlot();
             return;
         }
-        if(slot != null)
-            slot.FreeSlot();
         slot = currentSlot;
         transform.SetParent(currentSlot.transform, false);
         transform.localPosition = Vector2.zero;
@@ -41,10 +42,13 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     public void Delete() {
         if (slot != null)
             slot.FreeSlot();
+        currentItemStack.OnChangeCount -= ChangeCount;
+        currentItemStack.OnNullCount -= Delete;
         Destroy(gameObject);
     }
 
     public void OnBeginDrag(PointerEventData eventData) {
+        slot.StoreCTRL.ShowActionBar();
         startParent = transform.parent;
         GetComponent<CanvasGroup>().blocksRaycasts = false;
         transform.SetParent(customParent.transform, false);
@@ -66,13 +70,19 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
             }
         }
         if (transform.parent == customParent.transform) {
-            transform.SetParent(startParent.transform, false);
+            BackToSlot();
         }
         transform.localPosition = new Vector3(0, 0, 0);
+        slot.StoreCTRL.HideActionBar();
     }
 
     public void ChangeCount() {
         Count.text = currentItemStack.Count.ToString();
+    }
+
+    private void BackToSlot() {
+        transform.SetParent(startParent.transform, false);
+        transform.localPosition = new Vector3(0, 0, 0);
     }
 }
 

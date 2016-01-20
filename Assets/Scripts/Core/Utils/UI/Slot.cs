@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Slot : MonoBehaviour {
 
-    private bool block = false;
+    [SerializeField] private bool block = false;
     private UIStore storeController;
     private DragItem blockedItem;
 
@@ -11,6 +11,14 @@ public class Slot : MonoBehaviour {
     {
         get {
             return block;
+        }
+    }
+
+    public UIStore StoreCTRL
+    {
+        get
+        {
+            return storeController;
         }
     }
 

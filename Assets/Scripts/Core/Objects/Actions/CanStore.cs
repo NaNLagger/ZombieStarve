@@ -46,9 +46,7 @@ public class CanStore : MonoBehaviour {
 
     public void DropStack(ItemStack stack) {
         var canDropComponent = GetComponent<CanDrop>();
-        for (int i = 0; i < stack.Count; i++) {
-            canDropComponent.dropItems.Add(stack.TypeItem);
-        }
+        canDropComponent.dropStacks.Add(stack);
         storedItems.Remove(stack);
         /*GOVNO CODE BEGIN*/
         if(stack.OnNullCount != null)
@@ -71,13 +69,11 @@ public class CanStore : MonoBehaviour {
 
     public void Drop() {
         var canDropComponent = GetComponent<CanDrop>();
-        foreach(ItemStack item in storedItems) {
-            for(int i = 0; i < item.Count; i++) {
-                canDropComponent.dropItems.Add(item.TypeItem);
-            }
+        foreach(ItemStack stack in storedItems) {
+            canDropComponent.dropStacks.Add(stack);
             /*GOVNO CODE BEGIN*/
-            if (item.OnNullCount != null)
-                item.OnNullCount();
+            if (stack.OnNullCount != null)
+                stack.OnNullCount();
             /*GOVNO CODE END*/
         }
         storedItems.Clear();

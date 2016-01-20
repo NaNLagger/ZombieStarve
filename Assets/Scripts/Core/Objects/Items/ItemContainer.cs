@@ -4,17 +4,18 @@ using System.Collections;
 [RequireComponent(typeof(CanBeCollected)), RequireComponent(typeof(SpriteRenderer)), RequireComponent(typeof(UpdateOrder))]
 public class ItemContainer : MonoBehaviour {
 
-    private Item currentItem;
+    private ItemStack currentStack;
 
     public void Start() {
-        if(currentItem != null) {
-            GetComponent<SpriteRenderer>().sprite = currentItem.ObjSprite;
-            GetComponent<CanBeCollected>().drop = currentItem;
+        if(currentStack != null) {
+            GetComponent<SpriteRenderer>().sprite = currentStack.TypeItem.ObjSprite;
+            GetComponent<CanBeCollected>().drop = currentStack;
         }
     }
 
-    public void SetItem(Item item) {
-        GetComponent<SpriteRenderer>().sprite = item.ObjSprite;
-        GetComponent<CanBeCollected>().drop = item;
+    public void SetItem(ItemStack stack) {
+        currentStack = stack;
+        GetComponent<SpriteRenderer>().sprite = currentStack.TypeItem.ObjSprite;
+        GetComponent<CanBeCollected>().drop = currentStack;
     }
 }

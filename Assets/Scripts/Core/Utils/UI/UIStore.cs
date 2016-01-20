@@ -7,6 +7,8 @@ using System.Linq;
 public class UIStore : MonoBehaviour {
 
     public CanStore storeComponent;
+
+    public List<ActionArea> actionAreas = new List<ActionArea>();
     
     private Slot[] slots;
 
@@ -34,6 +36,18 @@ public class UIStore : MonoBehaviour {
     public void InsertDragItem(ItemStack stack) {
         if(slots.FirstOrDefault(x => x.BlockedStack == stack) == null) {
             AddStack(stack);
+        }
+    }
+
+    public void ShowActionBar() {
+        foreach(ActionArea actionArea in actionAreas) {
+            actionArea.gameObject.SetActive(true);
+        }
+    }
+
+    public void HideActionBar() {
+        foreach (ActionArea actionArea in actionAreas) {
+            actionArea.gameObject.SetActive(false);
         }
     }
 

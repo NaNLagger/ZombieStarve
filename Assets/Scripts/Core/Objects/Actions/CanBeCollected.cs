@@ -5,18 +5,17 @@ using System.Linq;
 public class CanBeCollected : MonoBehaviour {
 
     private SimpleObject baseScript;
-    public Item drop;
+    public ItemStack drop;
 
     private void Awake() {
         baseScript = GetComponent<SimpleObject>();
         if(drop == null) {
             ItemEntities.Init();
-            drop = ItemEntities.items.Values.First();
+            drop = new ItemStack(ItemEntities.items.Values.First());
         }
     }
 
-    public Item Collect() {
-        Debug.Log("Collect me");
+    public ItemStack Collect() {
         baseScript.HP = 0;
         return drop;
     }

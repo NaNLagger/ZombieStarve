@@ -3,18 +3,18 @@ using System.Collections.Generic;
 
 public class CanDrop : MonoBehaviour {
 
-    public List<Item> dropItems = new List<Item>();
+    public List<ItemStack> dropStacks = new List<ItemStack>();
 
     public void Drop() {
-        foreach (Item item in dropItems) {
-            Drop(item);
+        foreach (ItemStack stack in dropStacks) {
+            Drop(stack);
         }
-        dropItems.Clear();
+        dropStacks.Clear();
     }
 
-    public void Drop(Item item) {
+    public void Drop(ItemStack stack) {
         ItemContainer drop = Instantiate(ResourcesLoader.LoadPref("ItemContainer")).GetComponent<ItemContainer>();
         drop.transform.position = transform.position;
-        drop.SetItem(item);
+        drop.SetItem(stack);
     }
 }

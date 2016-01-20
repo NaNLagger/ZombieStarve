@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 [Serializable]
 public class ItemStack {
 
-    private Item item;
-    private int count;
+    [UnityEngine.SerializeField] private Item item;
+    [UnityEngine.SerializeField] private int count;
 
     private const int maxCount = 20;
 
@@ -17,6 +18,9 @@ public class ItemStack {
     public Item TypeItem {
         get {
             return item;
+        }
+        set {
+            item = value.Copy();
         }
     }
 
@@ -28,8 +32,9 @@ public class ItemStack {
             count = value;
             if (count <= 0) {
                 count = 0;
-                if (OnNullCount != null)
+                if (OnNullCount != null) {
                     OnNullCount();
+                }
             }
             if(count > maxCount) {
                 count = maxCount;
@@ -47,7 +52,7 @@ public class ItemStack {
     public ItemStack(Item item): this(item, 1) {
     }
 
-    public ItemStack Split() {
+    public ItemStack Split() { 
         var nCount = count / 2;
         Count = Count - nCount;
         if (nCount == 0)
@@ -56,6 +61,8 @@ public class ItemStack {
     }
 
     public ItemStack AddStack(ItemStack stack) {
+        if (stack == this)
+            return stack;
         if (!TypeItem.Equals(stack.TypeItem))
             return stack;
             

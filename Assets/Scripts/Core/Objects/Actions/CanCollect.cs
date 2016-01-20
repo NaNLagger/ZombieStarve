@@ -33,7 +33,7 @@ public class CanCollect : MonoBehaviour {
     }
 
     public void EndCollect() {
-        Item item = target.Collect();
+        ItemStack item = target.Collect();
         if(!GetComponent<CanStore>().Store(item)) {
             GetComponent<CanDrop>().Drop(item);
         }

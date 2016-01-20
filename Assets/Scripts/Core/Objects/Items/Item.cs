@@ -49,6 +49,10 @@ public class Item {
         return name.GetHashCode();
     }
 
+    public Item Copy() {
+        return new Item(name, icon, sprite);
+    }
+
     public override bool Equals(object obj) {
         if(obj is Item) {
             return ((Item)obj).name == this.name;
