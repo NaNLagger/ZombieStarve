@@ -7,21 +7,30 @@ public class Hero : MonoBehaviour {
 
     private CanCollect collectComponent;
     private CanAttack attackComponent;
+    private CanOpen openComponent;
 
     private void Awake() {
         collectComponent = GetComponent<CanCollect>();
         attackComponent = GetComponent<CanAttack>();
+        openComponent = GetComponent<CanOpen>();
     }
 
     public bool Action(SimpleObject obj) {
+        if (obj.gameObject == gameObject)
+            return false;
         Component component = obj.gameObject.GetComponent("CanBeCollected");
         if (component != null) {
-            collectComponent.Collect((CanBeCollected) component);
+            collectComponent.Action(obj);
             return true;
         }
         component = obj.gameObject.GetComponent("CanBeAttacked");
         if (component != null) {
             attackComponent.Attack((CanBeAttacked)component);
+            return true;
+        }
+        component = obj.gameObject.GetComponent("CanStore");
+        if (component != null) {
+            openComponent.Action(obj);
             return true;
         }
         return false;
@@ -38,5 +47,4 @@ public class Hero : MonoBehaviour {
             i++;
         }
     }
-
 }

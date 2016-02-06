@@ -101,9 +101,9 @@ public class Joystick : MonoBehaviour {
     }
 
     void OnDrawGizmos() {
-        if (!Application.isPlaying) {
+        /*if (!Application.isPlaying) {
             startPos = transform.position;
         }
-        Gizmos.DrawWireSphere(startPos, radius * canvas.scaleFactor);
+        Gizmos.DrawWireSphere(startPos, radius * canvas.scaleFactor);*/
     }
 }

@@ -14,6 +14,10 @@ public class CanMove : MonoBehaviour {
     public Utils.EmptyEvent OnChangeTarget;
     public Utils.EmptyEvent OnDone;
 
+    public GameObject DownBody;
+    public GameObject UpBody;
+    public GameObject RLBody;
+
     private LineVector lineVector;
     private Vector2 target;
     private Animator animator;
@@ -27,7 +31,7 @@ public class CanMove : MonoBehaviour {
         animator = GetComponent<Animator>();
     }
 
-    private void Update() {
+    private void FixedUpdate() {
         if(state) {
             if (Vector2.Distance(transform.position, target) > distance) {
                 move(target);
@@ -37,32 +41,32 @@ public class CanMove : MonoBehaviour {
                 if (OnDone != null)
                     OnDone();
             }
-                
         }
     }
-
-    /*void OnCollisionEnter2D(Collision2D coll) {
-        Debug.Log("Enter");
-        ChangeState(false);
-    }*/
-
-    /*void OnCollisionStay2D(Collision2D coll) {
-        ChangeState(false);
-    }*/
 
     private void move(Vector2 pos) {
         Vector2 tempPos = new Vector2(transform.position.x, transform.position.y);
         float angle = Vector2.Angle(pos - tempPos, new Vector2(0, -1));
         if (pos.x - tempPos.x < 0)
             angle = 360 - angle;
-        if (angle > 45 && angle < 135)
+        if (angle > 45 && angle < 135) {
             lineVector = LineVector.RIGHT;
-        if (angle > 135 && angle < 225)
+            RLBody.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+            BodyHide(RLBody);
+        }
+        if (angle > 135 && angle < 225) {
             lineVector = LineVector.TOP;
-        if (angle > 225 && angle < 315)
+            BodyHide(UpBody);
+        }
+        if (angle > 225 && angle < 315) {
             lineVector = LineVector.LEFT;
-        if (angle < 45 || angle > 315)
+            RLBody.transform.localScale = new Vector3(-0.3f, 0.3f, 0.3f);
+            BodyHide(RLBody);
+        }
+        if (angle < 45 || angle > 315) {
             lineVector = LineVector.BOTTOM;
+            BodyHide(DownBody);
+        }
         transform.position += new Vector3(pos.x - tempPos.x, pos.y - tempPos.y).normalized * speed * Time.deltaTime;
         GetComponent<UpdateOrder>().SetOrder();
         if (animator != null) {
@@ -104,4 +108,10 @@ public class CanMove : MonoBehaviour {
             OnChangeTarget();
     }
 
+    private void BodyHide(GameObject body) {
+        DownBody.SetActive(false);
+        UpBody.SetActive(false);
+        RLBody.SetActive(false);
+        body.SetActive(true);
+    }
 }

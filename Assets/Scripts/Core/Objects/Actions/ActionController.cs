@@ -20,7 +20,8 @@ public class ActionController : MonoBehaviour {
     public enum StatePriority {
         Move = 0,
         Collect = 1,
-        Attack = 2
+        Attack = 2,
+        Open = 3
     }
 
 }

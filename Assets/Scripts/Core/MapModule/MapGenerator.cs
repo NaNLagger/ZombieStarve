@@ -75,12 +75,6 @@ public class MapGenerator : MonoBehaviour {
     }
 
     private void AddingBeach(Tile tile) {
-        Debug.Log(tile.Pos);
-        Debug.Log(tile.Pos.NeighborTR());
-        Debug.Log(tile.Pos.NeighborTL());
-        Debug.Log(tile.Pos.NeighborBR());
-        Debug.Log(tile.Pos.NeighborBL());
-
         if (positions.ContainsKey(tile.Pos.NeighborTR()) && positions[tile.Pos.NeighborTR()] == 0) {
             tile.BeachTR.SetActive(true);
         }

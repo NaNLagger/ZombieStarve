@@ -49,5 +49,11 @@ public class Slot : MonoBehaviour {
     public void FreeSlot() {
         storeController.storeComponent.DeleteStack(blockedItem.currentItemStack);
         block = false;
+        StoreCTRL.HideActionBar();
+    }
+
+    public void Restart() {
+        if(blockedItem != null)
+            blockedItem.Delete();
     }
 }

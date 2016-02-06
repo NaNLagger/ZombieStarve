@@ -83,12 +83,15 @@
     <Compile Include="Assets\Scripts\Core\MapModule\Tile.cs" />
     <Compile Include="Assets\Scripts\Core\MapModule\TileController.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\Actions\ActionController.cs" />
+    <Compile Include="Assets\Scripts\Core\Objects\Actions\CanAction.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\Actions\CanAttack.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\Actions\CanBeAttacked.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\Actions\CanBeCollected.cs" />
+    <Compile Include="Assets\Scripts\Core\Objects\Actions\CanBeOpen.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\Actions\CanCollect.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\Actions\CanDrop.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\Actions\CanMove.cs" />
+    <Compile Include="Assets\Scripts\Core\Objects\Actions\CanOpen.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\Actions\CanStore.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\Hero.cs" />
     <Compile Include="Assets\Scripts\Core\Objects\Items\Item.cs" />
@@ -112,6 +115,7 @@
     <Compile Include="Assets\Scripts\Core\Utils\UI\UIStore.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\Utils.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\View\ChildOrderUpdate.cs" />
+    <Compile Include="Assets\Scripts\Core\Utils\View\FollowCamera.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\View\UpdateOrder.cs" />
     <Compile Include="Assets\Scripts\GameBuild\ItemCreator.cs" />
     <Compile Include="Assets\Scripts\MainController.cs" />

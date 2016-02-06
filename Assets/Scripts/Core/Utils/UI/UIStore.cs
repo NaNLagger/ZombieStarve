@@ -51,4 +51,27 @@ public class UIStore : MonoBehaviour {
         }
     }
 
+    public void Show() {
+        gameObject.SetActive(true);
+    }
+
+    public void Hide() {
+        gameObject.SetActive(false);
+    }
+
+    public void Show(CanStore canStore) {
+        Show();
+        if (canStore == storeComponent)
+            return;
+        Clear();
+        storeComponent = canStore;
+        GenerateIcons();
+        storeComponent.OnInsertStack += InsertDragItem;
+    }
+
+    private void Clear() {
+        foreach (Slot slot in slots)
+            slot.Restart();
+        storeComponent.OnInsertStack -= InsertDragItem;
+    }
 }
