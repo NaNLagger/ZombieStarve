@@ -116,6 +116,7 @@
     <Compile Include="Assets\Scripts\Core\Utils\Utils.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\View\ChildOrderUpdate.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\View\FollowCamera.cs" />
+    <Compile Include="Assets\Scripts\Core\Utils\View\PixelPerfect.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\View\UpdateOrder.cs" />
     <Compile Include="Assets\Scripts\GameBuild\ItemCreator.cs" />
     <Compile Include="Assets\Scripts\MainController.cs" />
