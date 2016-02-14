@@ -3,16 +3,10 @@ using System.Collections.Generic;
 
 public class Tile : MonoBehaviour {
 
-    static float TILE_WIDTH = 10.2f;
-    static float TILE_HEIGHT = 5.1f;
+    static float TILE_WIDTH = 8f;
+    static float TILE_HEIGHT = 4f;
 
     [SerializeField] private Position position;
-    public GameObject Grass;
-
-    public GameObject BeachTL;
-    public GameObject BeachTR;
-    public GameObject BeachBL;
-    public GameObject BeachBR;
 
     public Position Pos {
         get {

@@ -9,11 +9,11 @@ public class MapGenerator : MonoBehaviour {
 
     [Tooltip("GrassBiome")]
     public Tile GrassTile;
-    public Sprite[] GrassSprites;
+    //public Sprite[] GrassSprites;
 
     [Tooltip("WaterBiome")]
     public Tile WaterTile;
-    public Sprite[] WaterSprites;
+    //public Sprite[] WaterSprites;
 
     private Dictionary<Position, int> positions = new Dictionary<Position, int>();
 
@@ -28,11 +28,11 @@ public class MapGenerator : MonoBehaviour {
             Tile tile;
             if (pair.Value == 1) {
                 tile = Instantiate(GrassTile).GetComponent<Tile>();
-                tile.Grass.GetComponent<SpriteRenderer>().sprite = GrassSprites[Random.Range(0, GrassSprites.Length)];
+                //tile.Grass.GetComponent<SpriteRenderer>().sprite = GrassSprites[Random.Range(0, GrassSprites.Length)];
                 
             } else {
                 tile = Instantiate(WaterTile).GetComponent<Tile>();
-                tile.GetComponent<SpriteRenderer>().sprite = WaterSprites[Random.Range(0, WaterSprites.Length)];
+                //tile.GetComponent<SpriteRenderer>().sprite = WaterSprites[Random.Range(0, WaterSprites.Length)];
             }
 
             tile.transform.parent = transform;
@@ -75,7 +75,7 @@ public class MapGenerator : MonoBehaviour {
     }
 
     private void AddingBeach(Tile tile) {
-        if (positions.ContainsKey(tile.Pos.NeighborTR()) && positions[tile.Pos.NeighborTR()] == 0) {
+        /*if (positions.ContainsKey(tile.Pos.NeighborTR()) && positions[tile.Pos.NeighborTR()] == 0) {
             tile.BeachTR.SetActive(true);
         }
         if (positions.ContainsKey(tile.Pos.NeighborTL()) && positions[tile.Pos.NeighborTL()] == 0) {
@@ -86,7 +86,7 @@ public class MapGenerator : MonoBehaviour {
         }
         if (positions.ContainsKey(tile.Pos.NeighborBL()) && positions[tile.Pos.NeighborBL()] == 0) {
             tile.BeachBL.SetActive(true);
-        }
+        }*/
     }
 
     private void AddingRoad(Tile tile) {
